@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 260 70" width="260" height="70">
+  <defs>
+    <linearGradient id="fsbmGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1e3a8a" />
+      <stop offset="100%" stop-color="#0284c7" />
+    </linearGradient>
+  </defs>
+  <g transform="translate(10, 8)">
+    <circle cx="27" cy="27" r="25" fill="#eff6ff" stroke="#3b82f6" stroke-width="2" />
+    <path d="M27 12 L15 20 L27 28 L39 20 Z" fill="#1e3a8a" />
+    <path d="M21 24.5 L21 34 C21 38 33 38 33 34 L33 24.5" fill="none" stroke="#1e3a8a" stroke-width="2" />
+    <rect x="25.5" y="36" width="3" height="6" fill="#f59e0b" />
+  </g>
+  <text x="75" y="30" font-family="'Segoe UI', sans-serif" font-weight="800" font-size="16" fill="#1e3a8a">FSBM CASABLANCA</text>
+  <text x="75" y="46" font-family="'Segoe UI', sans-serif" font-weight="500" font-size="11" fill="#64748b">Faculté des Sciences Ben M'Sik</text>
+</svg>

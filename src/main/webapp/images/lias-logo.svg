@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 80" width="320" height="80">
+  <defs>
+    <linearGradient id="liasGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0b3b60" />
+      <stop offset="100%" stop-color="#0284c7" />
+    </linearGradient>
+    <linearGradient id="accentGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f59e0b" />
+      <stop offset="100%" stop-color="#d97706" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Icon Symbol: Modern Scientific Hexagon Nodes -->
+  <g transform="translate(10, 10)">
+    <!-- Hexagon Outer -->
+    <polygon points="30,5 55,20 55,48 30,62 5,48 5,20" fill="url(#liasGrad)" />
+    <!-- Inner Connections -->
+    <circle cx="30" cy="34" r="7" fill="#ffffff" />
+    <circle cx="18" cy="23" r="4.5" fill="url(#accentGrad)" />
+    <circle cx="42" cy="23" r="4.5" fill="url(#accentGrad)" />
+    <circle cx="30" cy="50" r="4" fill="#ffffff" />
+    <!-- Lines -->
+    <line x1="30" y1="34" x2="18" y2="23" stroke="#ffffff" stroke-width="2" />
+    <line x1="30" y1="34" x2="42" y2="23" stroke="#ffffff" stroke-width="2" />
+    <line x1="30" y1="34" x2="30" y2="50" stroke="#ffffff" stroke-width="2" />
+  </g>
+
+  <!-- Typography -->
+  <text x="80" y="38" font-family="'Segoe UI', 'Inter', -apple-system, sans-serif" font-weight="900" font-size="28" fill="#0b3b60" letter-spacing="1">LIAS</text>
+  <text x="82" y="55" font-family="'Segoe UI', 'Inter', -apple-system, sans-serif" font-weight="600" font-size="11" fill="#0284c7" letter-spacing="0.5">LABORATOIRE DE RECHERCHE</text>
+  <text x="82" y="68" font-family="'Segoe UI', 'Inter', -apple-system, sans-serif" font-weight="500" font-size="9.5" fill="#64748b">FSBM &bull; UNIVERSITÉ HASSAN II</text>
+</svg>
